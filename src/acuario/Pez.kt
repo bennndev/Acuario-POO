@@ -1,4 +1,6 @@
 package acuario
 
-class Pez {
+class PezPayaso : Pez() {
+    override val color: String = "dorado"
 }
+
