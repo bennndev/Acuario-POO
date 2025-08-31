@@ -1,6 +1,8 @@
 package acuario
 
-class PezPayaso : Pez() {
+class PezPayaso : Pez(), AccionPez {
     override val color: String = "dorado"
+    override fun comer() {
+        println("Pez payaso: Comer algas")
+    }
 }
-
